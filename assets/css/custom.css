@@ -1,0 +1,1818 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam:wght@100&display=swap');
+
+@font-face {
+    font-family: BeVietnam-italic;
+    src: url('../fonts/BeVietnam-Italic.ttf') format('truetype');
+}
+
+.text-top-page {
+    justify-content: center;
+    padding: 10px 0px;
+}
+
+.text-top-page h5 {
+    font-family: BeVietnam, sans-serif;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: calc(1em + 0.5vw)
+}
+
+.our-service-area {
+    /* height: 100%; */
+}
+
+.service-item {
+    text-align: center;
+    margin: 10px;
+    y-content: center;
+    background-color: #000;
+    float: none;
+    padding-bottom: 5%;
+    padding-left: 20px;
+    padding-right: 20px;
+    transition: all 1s ease;
+}
+
+.service-item:nth-child(1) {
+    background-color: #98a6b5;
+}
+
+.service-item:nth-child(2) {
+    background-color: #636377;
+}
+
+.service-item:nth-child(3) {
+    background-color: #93b3be;
+}
+
+.service-item:nth-child(4) {
+    background-color: #292f3b;
+}
+
+.service-item:hover img {
+    transform: translateY(-20px);
+}
+
+.service-item:hover {
+    filter: saturate(5.5);
+}
+
+.service-item img {
+    width: 72%;
+    transition: all 0.6s ease;
+}
+
+.service-item h4 {
+    height: 60px;
+    color: #FFFFFF;
+    font-family: -webkit-body;
+    font-family: 'BeVietnam';
+    letter-spacing: 8px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.service-item p {
+    font-family: BeVietnam;
+    font-size: 14px;
+    line-height: 31px;
+    letter-spacing: 1px;
+    color: #494B4D;
+    text-align: center;
+}
+
+.section_main_video {
+    background-color: #efefef;
+    height: 40rem;
+    margin-top: 7%;
+    margin-bottom: 7%;
+}
+
+.section_main_blog {
+    margin-top: 14%;
+}
+
+.end-slogan-homepage {
+    margin-bottom: 31px;
+    margin-top: 14%;
+    text-align: center;
+}
+
+.contact {
+    margin-top: 1%;
+    margin-left: -5%;
+}
+
+.contact p {
+    color: #FFFFFF;
+    margin-bottom: 2px;
+}
+
+.header-area h5 {
+    font-family: BeVietnam, sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 4px;
+    /* margin-left: 8%; */
+    color: #ffffff;
+    margin-top: 8px;
+    margin-bottom: 0;
+}
+
+#bgvid {
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.text_area_home {
+    text-align: center;
+    margin-top: 4%;
+}
+
+.text_area_home h3 {
+    font-family: BeVietnam, sans-serif;
+    letter-spacing: 10px;
+    line-height: 65px;
+    text-transform: uppercase;
+    margin-top: -11%;
+    font-size: 38px;
+}
+
+.text_area_home p {
+    margin-top: 14px;
+    color: #494B4D;
+    font-size: 24px;
+    font-family: BeVietnam;
+    line-height: 50px;
+}
+
+.section_video {
+    width: 100%;
+    padding-bottom: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+    margin-top: 10%;
+}
+
+.section_video_homepage {
+    margin-top: -4%;
+    background-color: #e6e6e6e6;
+}
+
+.section_video {
+    /*background: url("../img/background_video.png");*/
+    background-repeat: no-repeat;
+    background-size: 89%;
+    background-position: right;
+}
+
+.section_video .row {
+    min-height: 400px;
+}
+
+.video_background {
+    position: relative;
+    background: linear-gradient(80deg, transparent 101px, #636377 102px);
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    transform: skew(-5deg);
+}
+
+.main_video {
+    position: absolute;
+    right: 10%;
+    top: -2%;
+    width: 72%;
+}
+
+.video_background:after {
+    content: "";
+    position: absolute;
+    right: 86%;
+    bottom: 30%;
+    width: 0;
+    height: 0;
+    border-top: 70px solid transparent;
+    border-right: 200px solid #636377;
+    border-bottom: 30px solid transparent;
+    transform: rotate(-0.05turn);
+}
+
+.section_video iframe {
+    position: absolute;
+    top: 3%;
+    left: 4%;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.section_video_text {
+    text-align: center;
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+    .section_video_text p {
+        padding-left: 4px !important;
+        width: 143px;
+    }
+}
+
+.row_1 h5 {
+    height: 42px !important;
+}
+
+.section_video_text p {
+    font-family: 'BeVietnam';
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 16px;
+    position: absolute;
+    bottom: 30px;
+    text-align: left;
+    color: #636376;
+    margin-right: 21px;
+    padding-left: 48px;
+}
+
+.section_video_text p > span {
+    font-family: 'BeVietnam';
+    font-size: 21px;
+    font-weight: bold;
+    color: #636376;
+}
+
+.mobile-hidden {
+    display: none;
+}
+
+.video-background {
+    z-index: -99;
+    padding-bottom: 100px;
+    filter: brightness(0.5);
+}
+
+.video-foreground,
+.video-background iframe {
+    position: relative;
+    width: 100%;
+}
+
+.logo_header {
+    position: absolute;
+    margin-top: -57%;
+    z-index: 1;
+}
+
+.title_header h1 {
+    position: absolute;
+    margin-top: -40%;
+    left: 18%;
+    right: 17%;
+    text-transform: uppercase;
+    font-family: BeVietnam, sans-serif;
+    letter-spacing: 11px;
+    font-size: 2.5vw;
+    color: #FFFFFF;
+}
+
+.sub-title_header h1 {
+    left: 17%;
+    right: 15%;
+    font-family: BeVietnam, sans-serif;
+    font-size: 1.5vw;
+    letter-spacing: 5px;
+    color: #FFFFFF;
+    margin-top: -19%;
+    position: absolute;
+}
+
+.img_section_blog {
+    /* width: 100%; */
+    /* height: 79%; */
+}
+
+@media (max-width: 2800px) {
+    .text_area_home h3 { /* margin-top: 19%; */
+    }
+
+}
+
+@media (min-width: 1800px) {
+    .section_video {
+        background-size: 75%;
+        background-position-x: 90%;
+    }
+
+    .b-popup-content {
+    }
+}
+
+@media (max-width: 1800px) {
+    .video-background {
+        text-align: left;
+    }
+
+    .section_video {
+        background-size: 78%;
+    }
+}
+
+@media (max-width: 1400px) {
+    .sub-title_header h1 {
+        /* margin-top: 13%; */
+    }
+
+    .section_video {
+        background-size: 83%;
+    }
+}
+
+@media (max-width: 1440px) {
+    .sub-title_header h1 {
+        /* margin-top: 18%; */
+    }
+
+    .section_video_text p {
+        margin-right: 13%;
+        padding-left: 63px;
+        padding-right: 15px;
+        text-align: left;
+    }
+
+    .text_area_home h3 { /* margin-top: 12%; */
+    }
+}
+
+@media (max-width: 1024px) {
+    .subtitle_header { /* margin-left: 16% !important; */
+    }
+}
+
+@media (min-width: 770px) and (max-width: 990px) {
+    .title_useful_footer {
+        margin-left: 21%;
+        margin-top: -2%;
+        padding-bottom: 1%;
+    }
+}
+
+@media (max-width: 986px) {
+    .img_section_blog {
+        width: 100%;
+        height: 28%;
+    }
+
+}
+
+@media (max-width: 993px) {
+    .service-item {
+        height: 100%;
+    }
+}
+
+@media (max-width: 730px) {
+    .logo_header {
+        /* margin-top: -8%; */
+    }
+
+    .text_area_home h3 {
+        margin-top: 10%;
+        line-height: 62px;
+    }
+}
+
+@media (max-width: 600px) {
+    .sub-title_header {
+        margin-top: -6%;
+    }
+}
+
+@media (max-width: 501px) {
+    .logo_header {
+        margin-top: -76%;
+    }
+
+    .res-mobile-menu .slicknav_nav li a {
+        font-size: 23px;
+    }
+
+    .title_header h1 {
+        margin-top: -35%;
+        font-size: 5vw;
+    }
+
+    .header_img .title_header h1 {
+        margin-top: -52%;
+        font-size: 5vw;
+    }
+
+    .sub-title_header h1 {
+        margin-top: -28% !important;
+        font-size: 3vw;
+        left: 2%;
+        right: 2%;
+    }
+
+    .text_area_home h3 {
+        margin-top: -7% !important;
+    }
+}
+
+@media (max-width: 358px) {
+    .logo_header {
+        margin-top: -83%;
+    }
+
+    .sub-title_header h1 {
+        margin-top: -2%;
+    }
+
+    .title_header h1 {
+        margin-top: -38%;
+    }
+
+    .header_img .title_header h1 {
+        margin-top: -66%;
+        font-size: 5vw;
+    }
+}
+
+@media (max-width: 1024px) {
+    .section_video {
+        background-size: 85%;
+        background-position-x: 100%;
+    }
+}
+
+@media (max-width: 575px) {
+    .logo_header_menu {
+        display: none;
+    }
+}
+
+@media (min-width: 770px) and (max-width: 990px) {
+
+}
+
+@media (max-width: 767px) {
+    .title_contact_footer h5 {
+        text-align: center !important;
+        padding-right: 0 !important;
+    }
+
+    .customer_form .form_group {
+        width: 100% !important;
+    }
+
+    .customer_form {
+        margin-left: 0 !important;
+    }
+
+    .subtitle_header {
+        /* margin-left: 5% !important; */
+    }
+
+    .subtitle_header h4 {
+        font-size: 2vw !important;
+    }
+
+    .contact {
+        margin-left: 0 !important;
+    }
+
+    .close_popup {
+        margin-top: 9% !important;
+        right: 3% !important;
+    }
+
+    .accordion-item-content {
+        text-align: center !important;
+        width: 100%;
+    }
+
+    .channging_img .img_part {
+        padding-left: 10px !important;
+        padding-right: 20px !important;
+    }
+
+    .terminal_items h5 {
+        /* height: 15px !important; */
+    }
+
+    .sub-title_header h1 {
+        margin-top: -23%;
+        /* font-size: 2vw; */
+    }
+
+    .channging_img {
+        text-align: center;
+    }
+
+    .channging_img .text_part {
+        max-width: 100% !important;
+    }
+
+    .channging_img .img_part {
+        max-width: 100% !important;
+    }
+
+    .spoiler-body {
+        width: 100% !important;
+        text-align: center !important;
+    }
+
+    .office {
+        text-align: center;
+    }
+
+    .text_area_home h3 {
+        margin-top: -18% !important;
+    }
+
+    .text_area_why_dcc h3 {
+        margin-top: 5% !important;
+    }
+
+    .why_dcc .section_main_blog h3 {
+        text-align: center;
+    }
+
+    .section_video iframe {
+        position: relative !important;
+        max-width: 100% !important;
+        max-height: 100% !important;
+        left: 2% !important;
+    }
+
+    .b-popup-content {
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+        width: 97% !important;
+        margin-left: 1% !important;
+        height: 100% !important;
+        margin-top: 10% !important;
+    }
+
+    .text_area_home h3 {
+        line-height: 58px;
+        margin-top: -16%;
+    }
+
+    .desktop-hidden {
+        display: none;
+    }
+
+    .mobile-hidden {
+        display: block;
+    }
+
+    .sp-y {
+        text-align: center;
+        padding-top: 7px;
+        padding-bottom: 14px;
+    }
+
+    .service-item {
+        height: 100%;
+    }
+
+    .social-items {
+        text-align: center;
+        display: inline;
+        margin-top: -16%;
+    }
+
+    .title_contact_footer {
+    }
+
+    .header-area h5 {
+        margin-left: 0px;
+    }
+
+    .section_video_text p {
+        font-family: "BeVietnam", sans-serif;
+        font-size: 20px;
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: 3%;
+        /* margin-right: 1%; */
+        margin-left: 18%;
+        position: initial;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .section_main_blog {
+        text-align: center;
+    }
+
+    .section_main_blog:nth-child(2) img {
+        width: 100%;
+    }
+
+    .section_video {
+        background: none;
+    }
+
+    .video_background {
+        padding-bottom: 5%;
+        padding-left: 5%;
+        text-align: center;
+        background: none;
+    }
+
+    .title_useful_footer {
+        padding-left: 1% !important;
+        margin-top: -8%;
+    }
+
+    .terms_content h5 {
+        margin-top: 18% !important;
+    }
+}
+
+@media (max-width: 900px) {
+    .video_background {
+        background: none;
+    }
+
+    .video_background::after {
+        display: none;
+    }
+}
+
+@media (max-width: 990px) {
+    .video_background {
+        display: none;
+    }
+
+    .video_background::after {
+        display: none;
+    }
+}
+
+@media (max-width: 376px) {
+    .text_area_home h3 {
+        line-height: 44px;
+    }
+
+    .sub-title_header h1 {
+        margin-top: -33% !important;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1300px) {
+    .terminal_items {
+        max-width: 31%;
+    }
+
+}
+
+@media (min-width: 1000px) and (max-width: 1200px) {
+    .col-lg-3.service-item {
+        max-width: 24%;
+    }
+}
+
+@media (max-width: 1200px) {
+    .contact {
+        margin-left: -11%;
+    }
+
+    .terminal_items {
+        /* max-width: 29%; */
+    }
+
+    .text_area_home p {
+        font-size: 18px;
+        line-height: 40px;
+    }
+
+    .service-item {
+        margin: 4px;
+    }
+
+    .section_video iframe {
+        position: absolute;
+        top: 6%;
+        left: 17%;
+        max-width: 75%;
+        max-height: 85%;
+    }
+
+    .video_background::after {
+        border-right: 170px solid #636377;
+    }
+
+    .section_main_blog h3 {
+        font-size: 18px;
+    }
+
+    .section_main_blog h4 {
+        font-size: 20px;
+    }
+
+    .section_main_blog p {
+        font-size: 16px;
+        line-height: 30px;
+    }
+}
+
+@media (max-width: 992px) {
+    .service-item {
+    }
+}
+
+@media (width: 768px) {
+    .title_useful_footer {
+        margin-left: 15%;
+    }
+
+    .footer_links {
+        margin-left: 26%;
+    }
+
+    .contact {
+        text-align: center;
+    }
+}
+
+@media (max-width: 523px) {
+    .header-area.sticky-header {
+        background-color: transparent;
+    }
+
+    .header_philosophy h1 {
+        margin-top: -46%;
+    }
+
+    .our_support_title {
+        margin-top: 18%;
+    }
+
+    .subtitle_header h4 {
+        font-size: 3vw !important;
+        margin-top: -4%;
+    }
+
+    .subtitle_header h5 {
+        font-size: 2vw !important;
+    }
+
+    .section_main_blog h3 {
+        text-align: center !important;
+    }
+
+    .section_main_blog h4 {
+        text-align: center !important;
+    }
+
+    .btn-menu {
+        margin-right: 13px;
+        transition: 1s;
+    }
+
+    .close_popup {
+        margin-top: 8.5% !important;
+        /* margin-top: -31px !important; */
+    }
+
+    .header-area.sticky-header.sticky {
+        padding: 13px;
+    }
+
+    .header-area h5 {
+        display: none;
+    }
+
+    .section_video_homepage {
+        height: 429px;
+    }
+
+    .header-action-area {
+        text-align: end !important;
+    }
+
+    .off-canvas-wrapper .off-canvas-inner {
+        height: 50%;
+        width: 100%;
+    }
+
+    .section_video iframe {
+        top: -39px;
+        /* left: 16%; */
+    }
+}
+
+.section_main_blog h3 {
+    color: #b7a92c;
+    letter-spacing: 5px;
+    font-size: 28px;
+    font-family: BeVietnam, sans-serif;
+    text-transform: uppercase;
+    margin: 18px 0 30px 0;
+    margin-top: -8px;
+    text-align: justify;
+}
+
+.section_main_blog h4 {
+    color: #494B4D;
+    letter-spacing: 1px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: BeVietnam, sans-serif;
+    margin-bottom: 4%;
+    text-align: justify;
+}
+
+.section_main_blog p {
+    color: #000;
+    line-height: 33px;
+    font-size: 19px;
+    text-align: justify;
+    font-family: BeVietnam, sans-serif;
+}
+
+.section_main_blog img {
+    margin-bottom: 3%;
+}
+
+.end-slogan-homepage h3 {
+    font-family: BeVietnam, sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    letter-spacing: 6px;
+    color: #3F3F3F;
+}
+
+.button_introduction {
+    margin-bottom: 35px;
+    margin-top: 3.5%;
+}
+
+.button_introduction button {
+    font-family: BeVietnam, sans-serif;
+    font-size: 19px;
+    color: #292f3b;
+    padding: 13px 35px;
+    border: 2px solid #636377;
+}
+
+.button_introduction button:hover {
+    background-color: #b7a92c;
+    border: 2px solid #b7a92c;
+}
+
+.terminal_items button:hover {
+    filter: saturate(1.5);
+    background-color: #b7a92c;
+}
+
+.footer-logo {
+    width: 200px;
+    margin: 25px -18px 10px;
+}
+
+.title_contact_footer h5 {
+    color: #fff;
+    margin-top: 48px;
+    margin-bottom: 0;
+    font-weight: bold;
+    font-size: 22px;
+    text-align: end;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+}
+
+.b-popup {
+    width: 100%;
+    min-height: 100%;
+    background-color: rgba(0, 0, 0, 0.85);
+    position: fixed;
+    top: 0px;
+    left: 0;
+    z-index: 99;
+}
+
+.b-popup .b-popup-content {
+    margin-top: 4%;
+    margin-left: 21%;
+    width: 62%;
+    max-height: 80%;
+    position: absolute;
+    overflow-y: auto;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: #FFFFFF;
+    border-radius: 13px;
+    box-shadow: 0px 0px 10px #000;
+}
+
+.b-popup-content h1 {
+    font-family: BeVietnam, sans-serif;
+    font-size: 30px;
+    color: #494B4D;
+    margin-bottom: 60px;
+}
+
+.form_group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3%;
+}
+
+.form_checkbox {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 3%;
+}
+
+.close_popup {
+    font-size: 30px;
+    color: #000;
+    position: absolute;
+    right: 17.5%;
+    margin-top: 3.5%;
+    z-index: 9999;
+}
+
+.form-request label {
+    font-family: BeVietnam, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1.6px;
+    color: #494B4D;
+}
+
+.form-request input {
+    border: 1px solid #dbdbdb;
+    padding: 10px;
+}
+
+.form-request textarea {
+    border: 1px solid #dbdbdb;
+    min-height: 186px;
+}
+
+.form_checkbox label {
+    text-transform: none;
+}
+
+.title_useful_footer {
+    text-align: center;
+    /* padding-left: 6%; */
+    padding-top: 1%;
+}
+
+.terms {
+    margin-top: 1%;
+    text-align: center;
+}
+
+.terms p i {
+    padding-right: 4px;
+}
+
+.terms p {
+    color: #ffffff;
+}
+
+.terms_content {
+    padding-top: 5%;
+    line-height: 30px;
+    padding-bottom: 3%;
+}
+
+.terms_content span {
+    color: #FFFAF0;
+    font-family: BeVietnam, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 4px;
+}
+
+.terms_content p {
+    color: #FFFFFF;
+    font-family: BeVietnam, sans-serif;
+    font-size: 15px;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+
+.terms_content ul {
+    color: #FFFFFF;
+    list-style: none;
+}
+
+.terms_content ul > li::before {
+    color: #FFFFFF;
+    font-size: 14px;
+    content: "•";
+    margin-right: 5px;
+}
+
+.terms_content ul > li {
+    color: #FFFFFF;
+    font-size: 14px;
+    padding-left: 1em;
+    text-indent: -.8em;
+}
+
+.terms_item {
+    margin-top: 3%;
+}
+
+.terms_content h5 {
+    color: #FFFFFF;
+    font-family: BeVietnam, sans-serif;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    margin-top: 3%;
+    font-size: 22px;
+}
+
+.submit_form {
+    width: 100%;
+    border: 2px solid #636377;
+    padding: 10px 0 10px 0;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: #0a2935;
+}
+
+.submit_form:hover {
+    background-color: #D3D3D3;
+}
+
+.off-canvas-left {
+    height: 100%;
+    width: 50%;
+    position: absolute;
+}
+
+/******** Why DCC *********/
+
+.image-background {
+    position: relative;
+    filter: brightness(0.8);
+}
+
+.title_header_why_dcc h1 {
+    left: 20%;
+    right: 19%;
+    font-family: BeVietnam, sans-serif;
+    letter-spacing: 11px;
+    font-size: 2.5vw;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.sub-title_header h1 {
+    font-family: BeVietnam, sans-serif;
+    font-size: 2.0vw;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #FFFFFF;
+    padding: 20px;
+}
+
+.title_header_why_dcc {
+    position: absolute;
+    top: 38%;
+}
+
+.sub-title_header_why_dcc {
+    position: absolute;
+    top: 84%;
+}
+
+.text_area_why_dcc .text_area_home h3 {
+    margin-top: 5%;
+}
+
+.why_dcc .section_main_blog {
+    margin-top: 7%;
+}
+
+.why_dcc .section_main_blog h3 {
+    font-family: 'BeVietnam';
+    font-weight: 100;
+    font-size: 35px;
+}
+
+.channging_img {
+    background-color: #E6E7E9;
+    padding-right: 0;
+    margin-top: 4%;
+    position: relative;
+    height: 100%;
+}
+
+.channging_img .text_part {
+    display: inline-block;
+    max-width: 47.9%;
+    vertical-align: top;
+    padding-top: 7.5%;
+    padding-left: 3%;
+    padding-right: 5%;
+}
+
+.channging_img .img_part {
+    display: inline-block;
+    padding: 0;
+    max-width: 51.7%;
+}
+
+.channging_img .text_part h3 {
+    color: #b7a92c;
+    letter-spacing: 5px;
+    font-size: 26px;
+    font-family: BeVietnam, sans-serif;
+    text-transform: uppercase;
+}
+
+.channging_img .text_part h4 {
+    color: #606165;
+    letter-spacing: 5px;
+    font-size: 26px;
+    transition: 1s;
+    line-height: 42px;
+    font-weight: bold;
+    font-family: BeVietnam, sans-serif;
+    text-transform: uppercase;
+}
+
+.channging_img .text_part p {
+    color: #000;
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-family: BeVietnam, sans-serif;
+}
+
+.info {
+    margin-top: 3%;
+}
+
+.info h3 {
+    font-family: BeVietnam, sans-serif;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    font-size: 38px;
+}
+
+.info p {
+    color: #494B4D;
+    font-size: 24px;
+    font-family: BeVietnam;
+    line-height: 40px;
+}
+
+.contact_support {
+    margin-top: 5%;
+}
+
+.office h5 {
+    font-family: BeVietnam, sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+.office strong {
+    color: #000;
+    font-size: 18px;
+    font-family: BeVietnam;
+    /* line-height: 40px; */
+    font-weight: bold;
+}
+
+.office span {
+    color: #494B4D;
+    font-weight: 100;
+    font-size: 15px;
+    font-family: BeVietnam;
+    /* line-height: 40px; */
+}
+
+.office i {
+    margin-right: 10px;
+}
+
+.contact_support h3 {
+    font-family: BeVietnam, sans-serif;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    font-size: 38px;
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+.contact_support h3 {
+    text-align: center;
+    font-family: BeVietnam, sans-serif;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    font-size: 38px;
+}
+
+.map {
+    margin-top: 5%;
+}
+
+.details {
+    padding: 0px 0px 0px 8px;
+    width: 34%;
+    display: inline-block;
+}
+
+.hidden {
+    display: none;
+    transition: 2s;
+}
+
+.text_open_items {
+    margin-top: 8%;
+}
+
+.spoiler-title {
+    cursor: pointer;
+}
+
+.spoiler-body {
+    display: none;
+    font-family: 'BeVietnam';
+    font-weight: 100;
+    color: #201F1E;
+    padding-bottom: 2%;
+    margin-top: -2%;
+    width: 87%;
+    text-align: left;
+}
+
+.opened {
+    color: #000 !important;
+}
+
+.footer_links {
+    margin-top: 5%;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.footer_links i {
+    padding: 0px 8px;
+    color: #FFFFFF;
+}
+
+.contact a {
+    color: #FFFFFF;
+    font-family: BeVietnam, sans-serif;
+}
+
+.contact a:hover {
+    color: #FF8C00;
+}
+
+.footer_links a:hover {
+    color: #FF8C00;
+}
+
+.footer_links p a {
+    font-family: BeVietnam, sans-serif;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.footer_links span {
+    font-family: BeVietnam, sans-serif;
+    font-size: 18px;
+    font-weight: 100;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.terminals h1 {
+    margin-top: -47%;
+}
+
+.terminals_block {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.terminal_items {
+    background-color: #93b3be;
+    text-align: center;
+    margin: 10px;
+    padding: 26px;
+    /* max-width: 30%; */
+}
+
+.terminal_items h5 {
+    text-transform: uppercase;
+    height: 100px;
+    margin-bottom: 6%;
+    color: #FFFFFF;
+    font-family: -webkit-body;
+    font-family: 'BeVietnam';
+    letter-spacing: 8px;
+    font-size: calc(20px + 2 * ((1vw - 420px) / 860));
+    font-weight: bold;
+    text-align: center;
+}
+
+.b-popup {
+    display: none;
+}
+
+.closed {
+    display: none;
+}
+
+.terminals_block h3 {
+    font-family: BeVietnam, sans-serif;
+    letter-spacing: 10px;
+    line-height: 65px;
+    text-transform: uppercase;
+    font-size: 38px;
+}
+
+.terminals_block p {
+    margin-top: 14px;
+    color: #494B4D;
+    font-size: 24px;
+    font-family: BeVietnam;
+    line-height: 50px;
+}
+
+.terminal_items button {
+    font-family: BeVietnam;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color: #b7a92c;
+    padding: 10px 20px;
+    margin-top: 4%;
+    font-size: calc(13px + 2 * ((100vw - 420px) / 860));
+}
+
+.terminal_items button:hover {
+    background-color: #88AEB9;
+}
+
+.our_support_title h1 {
+    /* font-size: 4vw !important; */
+}
+
+.slide_01 {
+    transition: 2s;
+}
+
+.slide_02 {
+    transition: 2s;
+}
+
+.slide_03 {
+    transition: 2s;
+}
+
+.slide_04 {
+    transition: 2s;
+}
+
+.slide_05 {
+    transition: 2s;
+}
+
+.accordion {
+    margin-top: 5%;
+}
+
+.accordion-item-header {
+    cursor: pointer;
+    color: #606165;
+    letter-spacing: 5px;
+    font-size: 26px;
+    transition: 1s;
+    line-height: 42px;
+    font-weight: bold;
+    font-family: BeVietnam, sans-serif;
+    text-transform: uppercase;
+}
+
+.accordion-item-content {
+    font-family: 'BeVietnam';
+    font-weight: 100;
+    color: #201F1E;
+    padding-bottom: 2%;
+    margin-top: -2%;
+    /* width: 87%; */
+    text-align: left;
+    letter-spacing: 2px;
+    display: none;
+}
+
+.accordion-item.show .accordion-item-content {
+    padding-top: 10px;
+    display: block;
+}
+
+.accordion-item.show .accordion-item-header {
+    color: #000000;
+}
+
+.img_accordion {
+    position: absolute;
+    left: 109%;
+}
+
+.slide_img {
+    transition: 2s;
+}
+
+.philosophy_items {
+    margin-top: 5%;
+}
+
+.philosophy_items .item {
+    padding: 0px 24px;
+}
+
+.philosophy_items .item h5 {
+    margin-top: 4%;
+    text-align: center;
+    color: #b7a92c;
+    font-weight: 100;
+    font-size: 22px;
+    letter-spacing: 3px;
+}
+
+.philosophy_items .item p {
+    font-family: 'BeVietnam', sans-serif;
+    text-align: center;
+    color: #606165;
+    font-weight: 100;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+
+.philosophy_title {
+    margin-top: 1%;
+    text-align: center;
+}
+
+.philosophy_title h3 {
+    font-family: BeVietnam, sans-serif;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    font-size: 38px;
+}
+
+.philosophy_title p {
+    color: #494B4D;
+    font-size: 24px;
+    font-family: BeVietnam;
+    line-height: 40px;
+}
+
+.philosophy_items .item img {
+    transition: 1s;
+}
+
+.philosophy_items .item img:hover {
+    transform: scale(1.07);
+}
+
+@media (min-width: 1200px) {
+    .philosophy_items .item h5 {
+        height: 70px;
+    }
+}
+
+@media (min-width: 992px) {
+    .philosophy_items .item h5 {
+        height: 46px;
+    }
+}
+
+
+.our-service_title {
+    margin-top: 5%;
+    text-align: center;
+}
+
+.our-service_title h3 {
+    font-family: BeVietnam, sans-serif;
+    letter-spacing: 10px;
+    line-height: 65px;
+    text-transform: uppercase;
+    font-size: 38px;
+}
+
+.our-service-text p {
+    text-align: center;
+    margin-top: 14px;
+    color: #494B4D;
+    font-size: 24px;
+    font-family: BeVietnam;
+    line-height: 50px;
+}
+
+.our_service_items .item ul > li {
+    list-style-type: disc;
+}
+
+.our_service_items {
+    margin-top: 5%;
+}
+
+.our_service_items img {
+    margin-bottom: 4%;
+    margin-top: 4%;
+    transition: 1s;
+}
+
+.our_service_items img:hover {
+    transform: scale(1.06);
+}
+
+.our_service_items h5 {
+    font-family: BeVietnam, sans-serif;
+    font-weight: 100;
+    color: #b7a92c;
+    letter-spacing: 3px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 22px;
+    height: 65px;
+}
+
+.our_service_items p {
+    font-family: BeVietnam, sans-serif;
+    font-size: 15px;
+    letter-spacing: 1px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.partners_item {
+    margin-top: 2%;
+    text-align: center;
+}
+
+.partners_item button {
+    font-family: BeVietnam;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color: #b7a92c;
+    padding: 15px 20px;
+    margin-top: 4%;
+    width: 90%;
+    transition: 0.5s;
+    font-size: calc(13px + 2 * ((100vw - 420px) / 860));
+}
+
+.partners_item button:hover {
+    background-color: #93b3be;
+}
+
+@media (min-width: 575px) and (max-width: 991px) {
+    .partners_item button {
+        height: 100%;
+    }
+}
+
+.subtitle_header h4 {
+    text-transform: uppercase;
+    font-family: BeVietnam, sans-serif;
+    letter-spacing: 8px;
+    font-size: 1.5vw;
+    color: #FFFFFF;
+}
+
+.subtitle_header h5 {
+    font-family: BeVietnam-italic;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    font-size: 1vw;
+    color: #FFFFFF;
+}
+
+.subtitle_header {
+    /* position: absolute; */
+    /* margin-top: -14%; */
+    /* text-align: center; */
+    /* margin-left: 23%; */
+}
+
+.office {
+    margin-top: 2.2%;
+}
+
+.sub_title_our_philosophy {
+    margin-top: 5%;
+}
+
+.sub_title_our_philosophy h4 {
+    font-family: BeVietnam, sans-serif;
+    letter-spacing: 7px;
+    line-height: 65px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 38px;
+}
+
+.sub_title_our_philosophy h5 {
+    text-align: end;
+    font-family: BeVietnam-italic;
+    font-size: 19px;
+    letter-spacing: 4px;
+}
+
+.icon_social {
+    transition: 0.8s;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    padding: 3px;
+    background-color: #b7a92c;
+}
+
+.icon_social:hover {
+    background-color: #93b3be;
+}
+
+@media (max-width: 350px) {
+    .sub-title_header h1 {
+        margin-top: -40% !important;
+    }
+}
+
+.fa-instagram {
+    z-index: 99;
+    font-size: 22px;
+    color: #FFFFFF;
+}
+
+.fa-twitter {
+    z-index: 99;
+    font-size: 19px;
+    color: #FFFFFF;
+}
+
+.callback {
+    margin-top: 5%;
+}
+
+.callback h3 {
+    font-family: BeVietnam, sans-serif;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    font-size: 27px;
+}
+
+.customer_form .form_group {
+    width: 70%;
+    margin-bottom: 2%;
+}
+
+.customer_form {
+    margin-top: 5%;
+    /* padding-left: 26%; */
+    margin-left: 15%;
+}
+
+.form_distribution .form_group input {
+    height: 43px;
+}
+
+.form_customer .form_group input {
+    height: 43px;
+}
+
+.form_group button {
+    border: 2px solid #dbdbdb;
+    padding: 10px;
+}
+
+.card_service {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.card_service h3 {
+    font-family: BeVietnam, sans-serif;
+    color: #000;
+    font-size: 20px;
+    letter-spacing: 6px;
+    font-weight: bold;
+    display: inline-block;
+    padding: 10px;
+    background-color: #93b3be;
+    filter: brightness(1.2);
+}
+
+.img_strategic {
+    margin-top: 5%;
+}
+
+.img_strategic img {
+    width: 120px;
+    height: 120px;
+}
+
+.key_title {
+    margin-top: 5%;
+}
+
+.key_title h3 {
+    text-align: left;
+    font-family: BeVietnam, sans-serif;
+    color: #000;
+    font-size: 20px;
+    letter-spacing: 6px;
+    font-weight: bold;
+}
+
+.counter-area {
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+
+.preloader {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    /* фоновый цвет */
+    background: #FFFFFF;
+    z-index: 1001;
+}
+
+.preloader__image {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    width: 70px;
+    height: 70px;
+    margin-top: -35px;
+    margin-left: -35px;
+    text-align: center;
+    animation: preloader-rotate 2s infinite linear;
+}
+
+@keyframes preloader-rotate {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.loaded_hiding .preloader {
+    transition: 0.3s opacity;
+    opacity: 0;
+}
+
+.hide {
+    transform: translateY(-20vw);
+}
+
+.loaded .preloader {
+    display: none;
+}
+
+.copyright {
+    margin-top: 4%;
+}
+
+.copyright p {
+    font-family: BeVietnam, sans-serif;
+    color: #FFFFFF;
+}
+
+.disabled {
+    color: #dbdbdb !important;
+}
+
+.text-danger {
+    font-family: BeVietnam, sans-serif;
+    font-size: 15px;
+    color: #a71d2a;
+}
+
+.list-unstyled {
+    font-family: BeVietnam, sans-serif;
+    font-size: 15px;
+    color: #a71d2a !important;
+}
